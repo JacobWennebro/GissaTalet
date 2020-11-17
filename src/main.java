@@ -26,7 +26,7 @@ public class main {
         try {
             makeGuess(num);
         } catch(Exception e) {
-            JOptionPane.showInputDialog(null, "Svaret måste vara ett nummer!");
+            JOptionPane.showMessageDialog(null, "Svaret måste vara ett nummer!");
             makeGuess(num);
         }
 
